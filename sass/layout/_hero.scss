@@ -1,0 +1,54 @@
+/* HERO */
+
+.hero {
+  background-color: var(--hero-bg-color-new);
+  padding: 0;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/bg-img1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--hero-text-color);
+  width: 696px;
+  margin: 0 auto 30px;
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--hero-button-color);
+  min-width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: var(--hero-button-bg-color);
+  border-radius: var(--btn-border-radius);
+
+  transition: box-shadow var(--time) var(--function-cubic),
+    background-color var(--time) var(--function-cubic);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  box-shadow: var(--hero-button-shadow);
+  background-color: var(--modal-button-focus-color);
+}
