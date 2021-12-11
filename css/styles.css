@@ -1,6 +1,6 @@
 /* INDEX OR STUDIO */
 
-:root {
+/* :root {
   --body-bg-color: #ffffff;
   --body-color: #757575;
 
@@ -79,9 +79,9 @@
 
   --function-cubic: cubic-bezier(0.4, 0, 0.2, 1);
   --time: 250ms;
-}
+} */
 
-p,
+/* p,
 h1,
 h2,
 h3,
@@ -103,21 +103,21 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} */
 
-.container {
+/* .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-}
+} */
 
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
-body {
+/* body {
   background-color: var(--body-bg-color);
   color: var(--body-color);
   font-family: Roboto, sans-serif;
@@ -130,9 +130,9 @@ body {
 .link {
   text-decoration: none;
   outline: none;
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -143,7 +143,7 @@ body {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
 
 /* HEADER-NAVIGATION
 
@@ -319,12 +319,9 @@ body {
   background-color: var(--modal-button-focus-color);
 } */
 
-/* features */
+features
 
-.features {
-}
-
-.features-list {
+/* .features-list {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
@@ -349,9 +346,6 @@ body {
   justify-content: center;
 }
 
-.features-item-icon {
-}
-
 .features-title {
   font-weight: 700;
   font-size: 14px;
@@ -366,11 +360,11 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-}
+} */
 
 /* OUR WORK */
 
-.our-work {
+/* .our-work {
   padding: 0;
   padding-bottom: 94px;
 }
@@ -416,7 +410,6 @@ body {
 }
 
 .our-work-desc {
-  /* font-style: normal; */
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -424,11 +417,11 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--our-work-desc-color);
-}
+} */
 
 /* TEAM */
 
-.team {
+/* .team {
   background-color: var(--team-bg-color);
 }
 
@@ -470,7 +463,6 @@ body {
 }
 
 .card-text {
-  /* font-size: 16px; */
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
@@ -524,11 +516,11 @@ body {
 .team-social-link:focus {
   background-color: var(--accent-color);
   color: var(--accent-text-color);
-}
+} */
 
 /* CLIENTS */
 
-.clients-title {
+/* .clients-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -541,7 +533,6 @@ body {
 
 .clients-list {
   display: flex;
-  /* justify-content: center; */
   flex-wrap: wrap;
 
   margin-left: -30px;
@@ -578,11 +569,11 @@ body {
 .clients-list-link:focus {
   border-color: var(--accent-color);
   color: var(--accent-color);
-}
+} */
 
 /* FOOTER */
 
-.footer {
+/* .footer {
   display: flex;
   background-color: var(--footer-bg-color);
   padding-top: 60px;
@@ -590,9 +581,6 @@ body {
 }
 .footer-container {
   display: flex;
-}
-
-.footer-address {
 }
 
 .footer-logo-link {
@@ -782,32 +770,32 @@ body {
 .footer-button:hover,
 .footer-button:focus {
   background-color: var(--modal-button-focus-color);
-}
+} */
 
 /* PORTFOLIO */
 
-.portfolio {
+/* .portfolio {
   display: block;
 }
 
 /* FILTER BTN */
 
-.portfolio-filter {
+/* .portfolio-filter {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-right: -8px;
-  /* margin-bottom: -8px; */
+
   min-width: 611px;
 }
 
 .filter-item {
   display: inline-flex;
   margin-right: 8px;
-  /* margin-bottom: 8px; */
-}
 
-.filter-btn {
+} */
+
+/* .filter-btn {
   cursor: pointer;
   font-family: inherit;
   font-weight: 500;
@@ -829,11 +817,11 @@ body {
   background-color: var(--accent-color);
   color: var(--accent-text-color);
   box-shadow: var(--btn-box-shadow);
-}
+} */
 
 /* GALLERY */
 
-.work-examples-list {
+/* .work-examples-list {
   display: flex;
 
   flex-wrap: wrap;
@@ -851,9 +839,9 @@ body {
 .examples-list-link {
   display: block;
   transition: box-shadow var(--time) var(--function-cubic);
-}
+} */
 
-.examples-list-link:focus,
+/* .examples-list-link:focus,
 .examples-list-link:hover {
   box-shadow: var(--examples-list-link-shadow);
 }
@@ -866,9 +854,9 @@ body {
 .card-thumb {
   position: relative;
   overflow: hidden;
-}
+} */
 
-.card-top-text {
+/* .card-top-text {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -883,10 +871,9 @@ body {
   position: absolute;
   transform: translateY(101%);
   transition: transform var(--time) var(--function-cubic);
-  /* overflow: auto; */
-}
+} */
 
-.card-content {
+/* .card-content {
   padding: 20px 24px;
   border: 1px solid var(--card-content-border);
   background: var(--white);
@@ -906,11 +893,11 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-}
+}  */
 
 /* BACKDROP */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -925,11 +912,11 @@ body {
 
 .backdrop.is-hidden .modal {
   transform: scale(2) skew(45deg);
-}
+} */
 
 /* MODAL */
 
-.modal {
+/* .modal {
   position: absolute;
   top: 50%;
   left: 50%;
