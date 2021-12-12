@@ -1,12 +1,13 @@
 /* features */
 
-.features-list {
+.features__list {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
   margin-bottom: -30px;
 }
-.features-item {
+
+.features-list__item {
   flex-basis: calc(100% / 4 - 30px);
   &:not(:last-child) {
     margin-right: 30px;
@@ -14,7 +15,7 @@
   }
 }
 
-.features-item-rectangle {
+.features-list__item-rectangle {
   width: 270px;
   height: 120px;
   border-radius: 4px;
@@ -25,7 +26,7 @@
   justify-content: center;
 }
 
-.features-title {
+.features-list__item-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -35,7 +36,7 @@
   margin-bottom: 10px;
 }
 
-.features-item-text {
+.features-list__item-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
