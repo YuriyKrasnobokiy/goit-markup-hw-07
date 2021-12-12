@@ -678,7 +678,7 @@ body {
   margin-bottom: 16px;
 }
 
-.team-list__social {
+.socials {
   display: flex;
   justify-content: center;
 }
