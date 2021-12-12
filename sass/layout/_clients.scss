@@ -1,6 +1,6 @@
 /* CLIENTS */
 
-.clients-title {
+.clients__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -11,14 +11,14 @@
   margin-bottom: 50px;
 }
 
-.clients-list {
+.clients__list {
   display: flex;
   flex-wrap: wrap;
 
   margin-left: -30px;
   margin-top: -30px;
 }
-.clients-list-item {
+.clients-list__item {
   width: 170px;
   height: 92px;
 
@@ -27,7 +27,7 @@
   flex-basis: calc(100% / 6 - 30px);
 }
 
-.clients-list-link {
+.clients-list__link {
   width: 100%;
   height: 100%;
 
@@ -46,6 +46,6 @@
     color: var(--accent-color);
   }
 }
-.clients-list-icon {
+.clients-list__icon {
   fill: currentColor;
 }
