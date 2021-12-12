@@ -331,7 +331,7 @@ body {
   color: var(--checkbox-link-color);
 }
 
-.modal__button {
+.modal-button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -347,7 +347,7 @@ body {
   transition: background-color var(--time) var(--function-cubic);
 }
 
-.modal__button:hover, .modal__button:focus {
+.modal-button:hover, .modal-button:focus {
   background-color: var(--modal-button-focus-color);
 }
 
