@@ -1,11 +1,11 @@
 /* OUR WORK */
 
-.our-work {
+.work {
   padding: 0;
   padding-bottom: 94px;
 }
 
-.our-work-title {
+.work__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -15,14 +15,14 @@
   margin-bottom: 50px;
 }
 
-.our-work-list {
+.work__list {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
   margin-bottom: -30px;
 }
 
-.our-work-item {
+.work-list__item {
   flex-basis: calc(100% / 3 - 30px);
   &:not(:last-child) {
     margin-right: 30px;
@@ -30,10 +30,11 @@
   }
 }
 
-.our-work-card {
+.work-list__card {
   position: relative;
 }
-.our-work-desc-wrapper {
+
+.work-list__card-content {
   display: flex;
   position: absolute;
   padding-top: 27px;
@@ -44,7 +45,7 @@
   background: var(--our-work-desc-bg);
 }
 
-.our-work-desc {
+.work-list__card-text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
