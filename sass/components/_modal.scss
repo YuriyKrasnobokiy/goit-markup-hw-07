@@ -37,7 +37,7 @@
   border-radius: 4px;
 }
 
-.modal-close-button {
+.modal__close-button {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -67,7 +67,7 @@
   pointer-events: none;
 }
 
-.modal-title {
+.modal__title {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -77,11 +77,11 @@
   color: var(--title-text-color);
 }
 
-.modal-form-field {
+.modal__form-field {
   margin-bottom: 10px;
 }
 
-.modal-input-title {
+.modal-input__title {
   display: block;
   font-weight: 400;
   font-size: 12px;
@@ -91,7 +91,7 @@
   margin-bottom: 4px;
 }
 
-.modal-input-wrap {
+.modal-input__wrap {
   position: relative;
 }
 
@@ -110,12 +110,12 @@
     border-color: var(--accent-color);
   }
 
-  &:focus + .modal-input-icon {
+  &:focus + .modal-input__icon {
     fill: var(--accent-color);
   }
 }
 
-.modal-input-icon {
+.modal-input__icon {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -124,7 +124,7 @@
   transition: fill var(--time) var(--function-cubic);
 }
 
-.modal-form-comment {
+.modal__form-comment {
   margin-bottom: 20px;
 }
 
@@ -153,12 +153,12 @@
   }
 }
 
-.modal-checkbox-field {
+.modal__checkbox-field {
   display: flex;
   margin-bottom: 30px;
 }
 
-.modal-checkbox-text {
+.modal-checkbox__text {
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -179,7 +179,7 @@
   }
 }
 
-.modal-check-wrap {
+.modal-check__wrap {
   transition: border-color var(--time) var(--function-cubic);
   &:hover {
     border-color: var(--accent-color);
@@ -191,22 +191,22 @@
   fill: transparent;
 }
 
-.modal-check {
-  &:focus + .modal-checkbox-text span {
+.modal__check {
+  &:focus + .modal-checkbox__text span {
     border: 2px solid var(--accent-color);
   }
 
-  &:checked + .modal-checkbox-text span {
+  &:checked + .modal-checkbox__text span {
     background-color: var(--accent-color);
     border: none;
   }
 
-  &:checked + .modal-checkbox-text .icon-check {
+  &:checked + .modal-checkbox__text .icon-check {
     fill: var(--white);
   }
 }
 
-.checkbox-link {
+.modal-checkbox__link {
   font-weight: 400;
   font-size: 14px;
   margin-left: 4px;
@@ -217,7 +217,7 @@
   color: var(--checkbox-link-color);
 }
 
-.modal-button {
+.modal__button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
