@@ -36,13 +36,13 @@
 
   transition: background-color var(--time) var(--function-cubic),
     color var(--time) var(--function-cubic), box-shadow var(--time) var(--function-cubic);
-}
 
-.filter-btn:hover,
-.filter-btn:focus {
-  background-color: var(--accent-color);
-  color: var(--accent-text-color);
-  box-shadow: var(--btn-box-shadow);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: var(--accent-text-color);
+    box-shadow: var(--btn-box-shadow);
+  }
 }
 
 /* GALLERY */
@@ -65,16 +65,15 @@
 .examples-list-link {
   display: block;
   transition: box-shadow var(--time) var(--function-cubic);
-}
 
-.examples-list-link:focus,
-.examples-list-link:hover {
-  box-shadow: var(--examples-list-link-shadow);
-}
-
-.examples-list-link:focus .card-top-text,
-.examples-list-link:hover .card-top-text {
-  transform: translateY(0);
+  &:focus,
+  &:hover {
+    box-shadow: var(--examples-list-link-shadow);
+  }
+  &:focus .card-top-text,
+  &:hover .card-top-text {
+    transform: translateY(0);
+  }
 }
 
 .card-thumb {

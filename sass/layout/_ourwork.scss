@@ -24,11 +24,10 @@
 
 .our-work-item {
   flex-basis: calc(100% / 3 - 30px);
-}
-
-.our-work-item:not(:last-child) {
-  margin-right: 30px;
-  margin-bottom: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
 }
 
 .our-work-card {

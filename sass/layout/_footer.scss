@@ -42,6 +42,11 @@
   letter-spacing: 0.03em;
   color: var(--address-item-link-color);
   transition: color var(--time) var(--function-cubic);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .address-text {
@@ -54,18 +59,13 @@
   transition: color var(--time) var(--function-cubic);
 }
 
-.address-item:last-child {
-  margin-bottom: 0;
-}
-
 .address-item {
   margin-bottom: 6px;
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
-.address-item-link:hover,
-.address-item-link:focus {
-  color: var(--accent-color);
-}
 .footer-social {
   display: block;
   justify-content: center;
@@ -92,10 +92,10 @@
 .footer-social-item {
   width: 44px;
   height: 44px;
-}
 
-.footer-social-item + .footer-social-item {
-  margin-left: 10px;
+  & + & {
+    margin-left: 10px;
+  }
 }
 
 .footer-social-link {
@@ -108,15 +108,15 @@
   align-items: center;
   justify-content: center;
   transition: background-color var(--time) var(--function-cubic);
+
+  &:focus,
+  &:hover {
+    background-color: var(--accent-color);
+  }
 }
 
 .footer-social-icon {
   fill: currentColor;
-}
-
-.footer-social-link:focus,
-.footer-social-link:hover {
-  background-color: var(--accent-color);
 }
 
 .footer-submit {
@@ -153,18 +153,18 @@
   border-radius: 4px;
   padding: 15px 16px;
   color: var(--submit-input-color);
-}
 
-.submit-input::placeholder {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-  align-items: center;
-  letter-spacing: 0.03em;
+  &::placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    align-items: center;
+    letter-spacing: 0.03em;
 
-  color: var(--submit-input-placeholder-color);
+    color: var(--submit-input-placeholder-color);
+  }
 }
 
 .footer-button {
@@ -187,14 +187,14 @@
   color: var(--white);
   background-color: var(--hero-button-bg-color);
   transition: background-color var(--time) var(--function-cubic);
+
+  &:hover,
+  &:focus {
+    background-color: var(--modal-button-focus-color);
+  }
 }
 
 .footer-button-icon {
   fill: currentColor;
   margin-left: 10px;
-}
-
-.footer-button:hover,
-.footer-button:focus {
-  background-color: var(--modal-button-focus-color);
 }

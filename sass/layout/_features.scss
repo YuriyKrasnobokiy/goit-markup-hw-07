@@ -8,10 +8,10 @@
 }
 .features-item {
   flex-basis: calc(100% / 4 - 30px);
-}
-.features-item:not(:last-child) {
-  margin-right: 30px;
-  margin-bottom: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
 }
 
 .features-item-rectangle {

@@ -394,12 +394,12 @@ body {
   align-items: center;
 }
 
-.nav-item:last-child {
-  margin-right: 0px;
-}
-
 .nav-item {
   margin-right: 50px;
+}
+
+.nav-item:last-child {
+  margin-right: 0px;
 }
 
 .nav-item-link {
@@ -415,10 +415,11 @@ body {
   position: relative;
 }
 
-.nav-item-link:hover,
-.contacts-item-link:hover,
-.nav-item-link:focus,
-.contacts-item-link:focus {
+.nav-item-link:hover, .nav-item-link:focus {
+  color: var(--accent-color);
+}
+
+.linkcurrent {
   color: var(--accent-color);
 }
 
@@ -431,10 +432,6 @@ body {
   position: absolute;
   left: 0;
   bottom: -1px;
-}
-
-.linkcurrent {
-  color: var(--accent-color);
 }
 
 .contacts-list {
@@ -460,6 +457,10 @@ body {
   align-items: center;
   justify-content: center;
   transition: color var(--time) var(--function-cubic);
+}
+
+.contacts-item-link:hover, .contacts-item-link:focus {
+  color: var(--accent-color);
 }
 
 .contacts-social-icon {
@@ -512,8 +513,7 @@ body {
   transition: box-shadow var(--time) var(--function-cubic), background-color var(--time) var(--function-cubic);
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.hero-button:hover, .hero-button:focus {
   box-shadow: var(--hero-button-shadow);
   background-color: var(--modal-button-focus-color);
 }
@@ -641,13 +641,13 @@ body {
   margin-bottom: -30px;
 }
 
+.team-item {
+  flex-basis: calc(100% / 4 - 30px);
+}
+
 .team-item:not(:last-child) {
   margin-right: 30px;
   margin-bottom: 30px;
-}
-
-.team-item {
-  flex-basis: calc(100% / 4 - 30px);
 }
 
 .team-card {
@@ -704,14 +704,13 @@ body {
   transition: color var(--time) var(--function-cubic), background-color var(--time) var(--function-cubic);
 }
 
-.team-social-icon {
-  fill: currentColor;
-}
-
-.team-social-link:hover,
-.team-social-link:focus {
+.team-social-link:hover, .team-social-link:focus {
   background-color: var(--accent-color);
   color: var(--accent-text-color);
+}
+
+.team-social-icon {
+  fill: currentColor;
 }
 
 /* CLIENTS */
@@ -752,14 +751,13 @@ body {
   transition: border-color var(--time) var(--function-cubic), color var(--time) var(--function-cubic);
 }
 
-.clients-list-icon {
-  fill: currentColor;
-}
-
-.clients-list-link:hover,
-.clients-list-link:focus {
+.clients-list-link:hover, .clients-list-link:focus {
   border-color: var(--accent-color);
   color: var(--accent-color);
+}
+
+.clients-list-icon {
+  fill: currentColor;
 }
 
 /* FOOTER */
@@ -808,6 +806,10 @@ body {
   transition: color var(--time) var(--function-cubic);
 }
 
+.address-item-link:hover, .address-item-link:focus {
+  color: var(--accent-color);
+}
+
 .address-text {
   font-style: normal;
   font-weight: 400;
@@ -818,17 +820,12 @@ body {
   transition: color var(--time) var(--function-cubic);
 }
 
-.address-item:last-child {
-  margin-bottom: 0;
-}
-
 .address-item {
   margin-bottom: 6px;
 }
 
-.address-item-link:hover,
-.address-item-link:focus {
-  color: var(--accent-color);
+.address-item:last-child {
+  margin-bottom: 0;
 }
 
 .footer-social {
@@ -876,13 +873,12 @@ body {
   transition: background-color var(--time) var(--function-cubic);
 }
 
-.footer-social-icon {
-  fill: currentColor;
+.footer-social-link:focus, .footer-social-link:hover {
+  background-color: var(--accent-color);
 }
 
-.footer-social-link:focus,
-.footer-social-link:hover {
-  background-color: var(--accent-color);
+.footer-social-icon {
+  fill: currentColor;
 }
 
 .footer-submit {
@@ -951,14 +947,13 @@ body {
   transition: background-color var(--time) var(--function-cubic);
 }
 
+.footer-button:hover, .footer-button:focus {
+  background-color: var(--modal-button-focus-color);
+}
+
 .footer-button-icon {
   fill: currentColor;
   margin-left: 10px;
-}
-
-.footer-button:hover,
-.footer-button:focus {
-  background-color: var(--modal-button-focus-color);
 }
 
 /* PORTFOLIO */
@@ -997,8 +992,7 @@ body {
   transition: background-color var(--time) var(--function-cubic), color var(--time) var(--function-cubic), box-shadow var(--time) var(--function-cubic);
 }
 
-.filter-btn:hover,
-.filter-btn:focus {
+.filter-btn:hover, .filter-btn:focus {
   background-color: var(--accent-color);
   color: var(--accent-text-color);
   box-shadow: var(--btn-box-shadow);
@@ -1024,8 +1018,7 @@ body {
   transition: box-shadow var(--time) var(--function-cubic);
 }
 
-.examples-list-link:focus,
-.examples-list-link:hover {
+.examples-list-link:focus, .examples-list-link:hover {
   box-shadow: var(--examples-list-link-shadow);
 }
 

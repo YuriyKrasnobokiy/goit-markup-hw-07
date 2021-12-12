@@ -39,14 +39,13 @@
   justify-content: center;
   transition: border-color var(--time) var(--function-cubic),
     color var(--time) var(--function-cubic);
-}
 
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+  }
+}
 .clients-list-icon {
   fill: currentColor;
-}
-
-.clients-list-link:hover,
-.clients-list-link:focus {
-  border-color: var(--accent-color);
-  color: var(--accent-color);
 }

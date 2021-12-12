@@ -21,13 +21,13 @@
   margin-bottom: -30px;
 }
 
-.team-item:not(:last-child) {
-  margin-right: 30px;
-  margin-bottom: 30px;
-}
-
 .team-item {
   flex-basis: calc(100% / 4 - 30px);
+
+  &:not(:last-child) {
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
 }
 
 .team-card {
@@ -68,10 +68,10 @@
 .team-social-item {
   width: 44px;
   height: 44px;
-}
 
-.team-social-item + .team-social-item {
-  margin-left: 10px;
+  & + & {
+    margin-left: 10px;
+  }
 }
 
 .team-social-link {
@@ -85,14 +85,14 @@
   background-color: var(--team-social-link-bg-color);
   transition: color var(--time) var(--function-cubic),
     background-color var(--time) var(--function-cubic);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: var(--accent-text-color);
+  }
 }
 
 .team-social-icon {
   fill: currentColor;
-}
-
-.team-social-link:hover,
-.team-social-link:focus {
-  background-color: var(--accent-color);
-  color: var(--accent-text-color);
 }

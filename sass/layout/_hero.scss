@@ -45,10 +45,10 @@
 
   transition: box-shadow var(--time) var(--function-cubic),
     background-color var(--time) var(--function-cubic);
-}
 
-.hero-button:hover,
-.hero-button:focus {
-  box-shadow: var(--hero-button-shadow);
-  background-color: var(--modal-button-focus-color);
+  &:hover,
+  &:focus {
+    box-shadow: var(--hero-button-shadow);
+    background-color: var(--modal-button-focus-color);
+  }
 }
