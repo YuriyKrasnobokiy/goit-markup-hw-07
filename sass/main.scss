@@ -1,9 +1,11 @@
 @import './utils/variables';
 @import './base/reset';
-@import './components/container';
-@import './components/section';
 @import './base/common';
 @import './utils/hidden';
+
+@import './components/container';
+@import './components/section';
+@import './components/modal';
 
 @import './layout/header';
 @import './layout/hero';
@@ -13,4 +15,3 @@
 @import './layout/clients';
 @import './layout/footer';
 @import './layout/portfolio';
-@import './components/modal';
