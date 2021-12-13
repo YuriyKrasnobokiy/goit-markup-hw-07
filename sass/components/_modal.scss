@@ -37,30 +37,6 @@
   border-radius: 4px;
 }
 
-.modal__close-button {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  width: 30px;
-  height: 30px;
-
-  border-radius: 50%;
-  background: var(--white);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  &:focus,
-  &:hover {
-    fill: var(--accent-color);
-  }
-}
-
-.close-icon {
-  transition: fill var(--time) var(--function-cubic);
-}
-
 .is-hidden {
   visibility: hidden;
   opacity: 0;
@@ -215,26 +191,4 @@
   text-decoration-skip-ink: none;
   text-decoration: underline;
   color: var(--checkbox-link-color);
-}
-
-.modal-button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-
-  display: block;
-  letter-spacing: 0.06em;
-
-  color: var(--white);
-  background-color: var(--hero-button-bg-color);
-  width: 200px;
-  height: 50px;
-  margin: 0 auto;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  transition: background-color var(--time) var(--function-cubic);
-  &:hover,
-  &:focus {
-    background-color: var(--modal-button-focus-color);
-  }
 }
