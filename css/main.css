@@ -526,16 +526,16 @@ body {
   margin-bottom: -30px;
 }
 
-.features-list__item {
+.features__item {
   flex-basis: calc(100% / 4 - 30px);
 }
 
-.features-list__item:not(:last-child) {
+.features__item:not(:last-child) {
   margin-right: 30px;
   margin-bottom: 30px;
 }
 
-.features-list__item-rectangle {
+.features-item__wrapper {
   width: 270px;
   height: 120px;
   border-radius: 4px;
@@ -546,7 +546,7 @@ body {
   justify-content: center;
 }
 
-.features-list__item-title {
+.features-item__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -556,7 +556,7 @@ body {
   margin-bottom: 10px;
 }
 
-.features-list__item-text {
+.features-item__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
