@@ -503,7 +503,7 @@ body {
   color: var(--accent-color);
 }
 
-.studio {
+.studio--black {
   color: var(--black);
 }
 
@@ -842,13 +842,16 @@ body {
 }
 
 .footer__studio {
-  color: var(--footer-studio-color);
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+
+.studio--white {
+  color: var(--footer-studio-color);
 }
 
 .address {
